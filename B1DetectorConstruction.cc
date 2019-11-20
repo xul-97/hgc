@@ -149,7 +149,7 @@ G4Material* mat = nist->FindOrBuildMaterial("G4_BONE_COMPACT_ICRU");
 // letter D
   //
 
-  G4ThreeVector posD = G4ThreeVector(0, 0*cm, -70*cm);
+  G4ThreeVector posDletter = G4ThreeVector(0, 0*cm, -70*cm);
 
  
   G4Box* solidD1 =    
